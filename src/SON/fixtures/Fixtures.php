@@ -20,11 +20,11 @@ class Fixtures {
         try {
             if($order == 'asc')
             {
-                $query = "select * from clientes ORDER BY id ASC";
+                $query = "select * from clientes ORDER BY nome ASC";
             }
             else
             {
-                $query = "select * from clientes ORDER BY id DESC";
+                $query = "select * from clientes ORDER BY nome DESC";
             }
             
             $exe = $this->conn->prepare($query);

@@ -56,7 +56,6 @@
 
           $pj4 = new Pjuridica('PIZZARIA ZEBU', 'zebu@gmail.com', '(11) 1233-3322', 'SQLW 409', 'ASA SUL', 'DF', '33283321211332', 5, '702 NORT LJ 3');
 
-          $pj5 = new Pjuridica('JOAOZINHO CARNE DE SOL', 'josaozinhosol@gmail.com', '(61) 8832-1299', 'QNO 12', 'LAGO NORTE', 'DF', '33283329211332', 2.5);
 
           $ArrClientes = array($pf1, $pj1, $pf2, $pj2, $pf3, $pj3, $pf4, $pj4, $pf5, $pj5);
 

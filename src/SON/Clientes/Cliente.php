@@ -64,13 +64,7 @@ class Cliente
         return $this->endereco;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getCpf()
-    {
-        return $this->cpf;
-    }
+    
 
     /**
      * @return string

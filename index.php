@@ -38,7 +38,7 @@
         use SON\fixtures\Fixtures as fixtures;
 
         /*
-          $pf1 = new Pfisica('Jose Carloa', 'jose@gmail.com', '(61) 8832-1299', 'Qr 122', 'Brasilia', 'DF', '02183431213', 5);
+          $pf1 = new Pfisica('Jose Carloa', 'jose@gmail.com', '(6('Jose1) 8832-1299', 'Qr 122', 'Brasilia', 'DF', '02183431213', 5);
 
           $pf2 = new Pfisica('Manuel Silva', 'manuel@gmail.com', '(61) 3321-1299', 'RUA MARTINS', 'Rio de Janeiro', 'RJ', '00183489913', 3, 'Rua tal n 4');
 
@@ -115,7 +115,7 @@
                                             $ordena = (!empty($ord) ? $ord : 'asc');
                                             foreach ($fix->getAllClientes($ordena) as $values):
                                                 $doc = ($values['categoria'] == '1' ? "CPF:" : "CNPJ:");
-                                                $catDoc = ($values['categoria'] == '1' ? "Pessoa Fisica:" : "Pessoa Juridica:");
+                                                $catDoc = ($values['categoria'] == '1' ? "Pessoa Juridica:" : "Pessoa Fisica:");
                                                 ?>
                                                 <tr>
                                                     <td>

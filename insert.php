@@ -28,4 +28,4 @@ $fix = new fixtures();
 $fix->Persist($cliente);
 $cad = $fix->flush();
 
-echo $cad;
+echo "Cadastro realizado com sucesso!";
